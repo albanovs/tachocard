@@ -233,6 +233,7 @@ header {
 
   .section-one {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   .block-right img {
