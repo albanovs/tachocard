@@ -16,7 +16,9 @@
 
 <body>
     <header class="header">
-        <div class="logo"><a href="./index.html"><div class="logo-img"></div></a></div>
+        <div class="logo"><a href="./index.html">
+                <div class="logo-img"></div>
+            </a></div>
         <nav class="nav">
             <ul class="nav-menu">
                 <li><a href="./index.html">Главная</a></li>
@@ -105,6 +107,13 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.getElementById('burger-menu').addEventListener('click', function () {
+            const navMenu = document.querySelector('.nav-menu');
+            navMenu.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
