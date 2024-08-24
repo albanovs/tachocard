@@ -1,0 +1,73 @@
+.details-text {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.details-text img {
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+    .details-text {
+        flex-direction: column;
+    }
+
+    .details-text img {
+        width: 400px;
+    }
+}
+
+.list-container {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Заголовок списка */
+.list-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Стили для списка */
+.fancy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.list-item:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.text {
+    font-size: 16px;
+    color: #333;
+}
